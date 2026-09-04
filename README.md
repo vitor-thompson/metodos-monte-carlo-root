@@ -5,7 +5,7 @@ Repositório dedicado aos exercícios de métodos numéricos, simulações de Mo
 ---
 
 ### **Exercício 1: Estimativa de $\pi$ (Agulha de Buffon)**
-* **Arquivo:** `buffon_pi.C`
+* **Arquivo:** `exercicio_buffon_pi.C`
 * **O que faz:** Utiliza o método de Monte Carlo geométrico para simular o lançamento aleatório de agulhas de comprimento $l$ sobre linhas paralelas separadas por $d$. Conta quantas agulhas cruzam as linhas ($m$) para estimar o valor de $\pi$ através da fórmula $\pi \approx \frac{2N}{m} \cdot \frac{l}{d}$ para diferentes valores de $N$ ($10, 50, 100, 1000$).
 
 ---
