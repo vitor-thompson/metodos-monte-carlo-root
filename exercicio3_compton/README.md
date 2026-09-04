@@ -46,11 +46,3 @@ A simulação utiliza o **Método de Aceitação e Rejeição (Hit-or-Miss)** pa
 
 ### Pré-requisitos
 * **CERN ROOT** instalado no sistema.
-
-### Passos de Execução
-
-Você pode rodar a função alterando a energia $E_0$ (em keV) e o número de eventos $N$ diretamente do terminal:
-
-* **Caso Padrão ($E_0 = 511\text{ keV}$ e $N = 100.000$):**
-  ```bash
-  root -l 'exercicio3_compton.C(511.0, 100000)'
