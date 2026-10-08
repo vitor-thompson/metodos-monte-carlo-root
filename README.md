@@ -19,9 +19,3 @@ Repositório dedicado aos exercícios de métodos numéricos, simulações de Mo
 ### **Exercício 3: Espalhamento Compton (Klein-Nishina)**
 * **Arquivo:** `exercicio3_compton.C`
 * **O que faz:** Simula a distribuição angular ($\theta$) do espalhamento de fótons por elétrons livres utilizando o algoritmo de **Aceitação e Rejeição (Hit-or-Miss)**. Permite alterar a energia inicial do fóton ($E_0$) e o número de eventos ($N$), sobrepondo o histograma gerado à curva teórica de Klein-Nishina.
-
----
-
-### **Exercício 4: Gerador de Eventos Pythia8**
-* **Arquivo:** `exercicio4_pythia.C`
-* **O que faz:** Simula a produção de pares de quarks top ($t\bar{t}$) a uma energia do centro de massa de $13\text{ TeV}$ usando o Pythia8 integrado ao ROOT. O código salva as partículas finais em um `TTree`, cria histogramas para $p_T$, $\eta$ e $\phi$, e aplica seleções/cortes com `TCut` para isolar sinais de múons.
